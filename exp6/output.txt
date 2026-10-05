@@ -1,0 +1,15 @@
+Inside pkg1.ClassA:
+Public    = 10
+Protected = 20
+Default   = 30
+Private   = 40
+
+Inside pkg1.ClassB:
+Public    = 10
+Protected = 20
+Default   = 30
+Private is not accessible
+
+Inside pkg2.ClassC:
+Public = 10
+Protected, default and private members are not accessible

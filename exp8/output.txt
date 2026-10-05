@@ -1,0 +1,7 @@
+Enter your age: 16
+Exception caught: Not eligible to vote
+Thank you for using the program
+
+Enter your age: 20
+Eligible to vote
+Thank you for using the program

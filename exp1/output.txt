@@ -1,0 +1,2 @@
+Enter a string: malayalam
+String is Palindrome

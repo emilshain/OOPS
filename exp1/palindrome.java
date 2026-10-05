@@ -7,16 +7,16 @@ public class palindrome {
         System.out.print("Enter a string: ");
         String str = sc.next();
 
-        String rev = "";
+        String reversed = "";
 
         for (int i = str.length() - 1; i >= 0; i--) {
-            rev = rev + str.charAt(i);
+            reversed = reversed + str.charAt(i);
         }
 
-        if (str.equals(rev)) {
-            System.out.println(str + " is a Palindrome");
+        if (str.equals(reversed)) {
+            System.out.println("String is Palindrome");
         } else {
-            System.out.println(str + " is not a Palindrome");
+            System.out.println("String is not Palindrome");
         }
 
         sc.close();

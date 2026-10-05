@@ -1,0 +1,6 @@
+Rectangle: length = 5, breadth = 3
+Area = 15.0
+Triangle: base = 4, height = 6
+Area = 12.0
+Hexagon: side = 2
+Area = 10.392304845413264

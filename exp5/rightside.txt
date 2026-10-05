@@ -3,7 +3,7 @@ Write a Java program to create an abstract class Shape with subclasses Rectangle
 
 ALGORITHM:
 Step 1: Start
-Step 2: Create an abstract class Shape with a method area()
+Step 2: Create an abstract class Shape with an abstract methods collectInput() and calculateArea(), and a method showResult() to display the area
 Step 3: Create a class Rectangle that extends Shape:
     3.1: Define a method collectInput() to get length and breadth
     3.2: Define a method calculateArea() to calculate length * breadth
@@ -13,6 +13,5 @@ Step 4: Create a class Triangle that extends Shape:
 Step 5: Create a class Hexagon that extends Shape:
     5.1: Define a method collectInput() to get side
     5.2: Define a method calculateArea() to calculate the area of the hexagon
-Step 6: Define a class ShowResult to display the result
-Step 7: In main, create objects for Rectangle, Triangle and Hexagon, call collectInput(), calculateArea() and showResult()
-Step 8: Stop
+Step 6: In main, create a Shape reference for Rectangle, Triangle and Hexagon and call collectInput(), calculateArea() and showResult() for each
+Step 7: Stop

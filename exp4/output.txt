@@ -1,0 +1,15 @@
+Officer Details:
+Name: Arun
+Age: 28
+Phone no: 9876543210
+Address: Kochi
+Specialization: Cyber Security
+Salary: 50000.0
+
+Manager Details:
+Name: Ravi
+Age: 35
+Phone no: 9123456780
+Address: Thrissur
+Department: Sales
+Salary: 80000.0

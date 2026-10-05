@@ -1,5 +1,5 @@
 AIM:
-Write a program that uses try, catch, throw and finally that checks if a user is eligible to vote (minimum age 18). If user is under 18, explicitly throw and handle an exception ensuring a final closing message is printed regardless of whether an exception occurs (illegal exception access exception).
+Write a program that uses try, catch, throw and finally that checks if a user is eligible to vote (minimum age 18). If the user is under 18, explicitly throw and handle an exception, ensuring a final closing message is printed regardless of whether an exception occurs.
 
 ALGORITHM:
 Step 1: Start

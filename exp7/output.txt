@@ -1,0 +1,3 @@
+a = 2
+Error occurred: java.lang.ArithmeticException: / by zero
+This statement is executed
