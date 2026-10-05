@@ -1,0 +1,13 @@
+AIM:
+Write a Java program to perform matrix multiplication.
+
+ALGORITHM:
+Step 1: Start
+Step 2: Import package
+Step 3: Create class Matrix
+Step 4: Create main method. Initialize and declare variables
+Step 5: Accept the size of 2 matrix and accept the values
+Step 6: Check if multiplication is possible or not
+Step 7: Use for loop to get row & column and find resulting matrix
+Step 8: Print the matrix
+Step 9: Stop

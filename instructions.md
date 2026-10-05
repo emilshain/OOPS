@@ -1,0 +1,3 @@
+the algorithmImages contain images of experiments named in the form experiment 1: exp1,exp1.1,... and experiement 2: exp2,exp2.1,...etc.
+make folders for each experiment exp1,exp2,exp3,... in the root
+inside each folder there must be particular java program codes made from the algorithm image, a rightside.txt file (with the AIM: and also the  ALGORITHM:) and a output.txt file with the exact output, user inputs and resultand output basically copy of the terminal text without the user and folder locations.

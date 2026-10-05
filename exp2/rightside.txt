@@ -1,0 +1,12 @@
+AIM:
+To find frequency of a given character in a string.
+
+ALGORITHM:
+Step 1: Start
+Step 2: Read the input string
+Step 3: Read the character whose frequency is to be found
+Step 4: Initialize a variable count = 0
+Step 5: Traverse the string from the first character to the last
+Step 6: If the current character matches the given character, increment count
+Step 7: After the loop, display the value of count
+Step 8: Stop

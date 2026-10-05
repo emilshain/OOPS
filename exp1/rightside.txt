@@ -1,0 +1,12 @@
+AIM:
+Write a Java program to check whether a given string is a Palindrome.
+
+ALGORITHM:
+Step 1: Start
+Step 2: Read a string from the user
+Step 3: Initialize an empty string to store the reverse
+Step 4: For each character from the last index to the first:
+    4.1: Append the character to the reverse string
+Step 5: Compare the original string with the reversed string
+Step 6: If both are equal, print "Palindrome", otherwise print "Not a Palindrome"
+Step 7: Stop

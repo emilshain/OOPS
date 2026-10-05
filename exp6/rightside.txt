@@ -1,0 +1,14 @@
+AIM:
+Write a Java program to illustrate the concept of access protection using packages.
+
+ALGORITHM:
+Step 1: Start
+Step 2: Create a package pkg1:
+    2.1: Class ClassA has public, protected, default and private members
+    2.2: Class ClassB (same package) accesses the public, protected and default members of ClassA
+Step 3: Create a package pkg2:
+    3.1: Class ClassC (different package) can access only the public members of ClassA
+Step 4: Import pkg1 and pkg2 into the main class
+Step 5: Create objects of ClassA, ClassB and ClassC and access their members
+Step 6: Display the result
+Step 7: Stop

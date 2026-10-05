@@ -1,0 +1,17 @@
+AIM:
+Write a Java program to deal with exception handling.
+
+ALGORITHM:
+Step 1: Start
+Step 2: Create a class named Excep
+Step 3: It has a method check() which throws Arithmetic Exception:
+    3.1: A variable 'a' is declared
+    3.2: a = 10/5 and print a
+Step 4: It has another method check1() which throws Arithmetic Exceptions:
+    4.1: A variable 'b' is declared
+    4.2: b = 25/0 and print b
+Step 5: Call the two methods check() and check1() in try block
+Step 6: In catch block print "Error occurred"
+Step 7: Define a block for finally
+Step 8: Print "This statement is executed"
+Step 9: Stop

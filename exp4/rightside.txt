@@ -1,0 +1,15 @@
+AIM:
+Write a Java program to create an abstract class employee with the subclasses officer and manager.
+
+ALGORITHM:
+Step 1: Start
+Step 2: Create an abstract class employee with data members name, age, phone no and address. Create a method printSalary to display the salary of employee
+Step 3: Create a class officer that extends the employee and add data member specialization to it
+Step 4: Create another class manager that extends the employee and add data member department to it
+Step 5: In main method:
+    5.1: Create an object of officer
+    5.2: Assign values to all employee details name, age, phone no, address and specialization
+    5.3: Display the officer details
+Step 6: Create an object of manager
+Step 7: Assign values to all employee details and department, display the details and call printSalary()
+Step 8: Stop
