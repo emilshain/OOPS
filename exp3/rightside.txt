@@ -2,12 +2,16 @@ AIM:
 Write a Java program to perform matrix multiplication.
 
 ALGORITHM:
-Step 1: Start
-Step 2: Import package
-Step 3: Create class Matrix
-Step 4: Create main method. Initialize and declare variables
-Step 5: Accept the size of 2 matrix and accept the values
-Step 6: Check if multiplication is possible or not
-Step 7: Use for loop to get row & column and find resulting matrix
-Step 8: Print the matrix
-Step 9: Stop
+1. Start
+2. Input the rows (r1) and columns (c1) of the first matrix
+3. Input the rows (r2) and columns (c2) of the second matrix
+4. If c1 is not equal to r2:
+    4.1. Display "Matrix multiplication is not possible" and exit
+5. Read elements of the first matrix (a) and the second matrix (b)
+6. For each row i of the first matrix:
+    6.1. For each column j of the second matrix:
+        6.1.1. Set c[i][j] = 0
+        6.1.2. For k from 0 to c1-1:
+            6.1.2.1. Calculate c[i][j] = c[i][j] + a[i][k] * b[k][j]
+7. Print the resultant matrix (c)
+8. Stop

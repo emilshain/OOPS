@@ -2,12 +2,16 @@ AIM:
 Write a program that uses try, catch, throw and finally that checks if a user is eligible to vote (minimum age 18). If the user is under 18, explicitly throw and handle an exception, ensuring a final closing message is printed regardless of whether an exception occurs.
 
 ALGORITHM:
-Step 1: Start
-Step 2: Create a Scanner object to read the age
-Step 3: Enter the age of the user
-Step 4: Check whether the age is less than 18
-Step 5: If age is less than 18, throw a VotingException with the message "Not eligible to vote"
-Step 6: Catch and handle the VotingException
-Step 7: If age is 18 or above, display "Eligible to vote"
-Step 8: Execute the finally block and display "Thank you for using the program"
-Step 9: Stop
+1. Start
+2. Create a Scanner object to read the user input
+3. Inside the try block:
+    3.1. Enter the age of the user
+    3.2. If age is less than 18:
+        3.2.1. Throw a VotingException with the message "Not eligible to vote"
+    3.3. If age is 18 or above:
+        3.3.1. Display "Eligible to vote"
+4. Inside the catch block:
+    4.1. Catch and handle the VotingException by printing its message
+5. Inside the finally block:
+    5.1. Display "Thank you for using the program"
+6. Stop

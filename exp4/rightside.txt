@@ -1,15 +1,15 @@
 AIM:
-Write a Java program to create an abstract class employee with the subclasses officer and manager.
+Write a Java program which creates a class named Employee having the following members: name, age, phoneNo, address,salary. It also has a method printSalary() which prints the salary of the employee. Two classes: Officer and Manager inherits the employee class. The Officer and Manager classes have data members: Specialization and Department respectfully. Now assign name, age, phoneNo, address and salary to an officer and manager by making an object of both of these classes and print the same.
 
 ALGORITHM:
-Step 1: Start
-Step 2: Create an abstract class employee with data members name, age, phone no and address. Create a method printSalary to display the salary of employee
-Step 3: Create a class officer that extends the employee and add data member specialization to it
-Step 4: Create another class manager that extends the employee and add data member department to it
-Step 5: In main method:
-    5.1: Create an object of officer
-    5.2: Assign values to all employee details name, age, phone no, address and specialization
-    5.3: Display the officer details
-Step 6: Create an object of manager
-Step 7: Assign values to all employee details and department, display the details and call printSalary()
-Step 8: Stop
+1. Start
+2. Create a class Employee with data members name, age, phoneNo, address, salary and a method printSalary()
+3. Create a class Officer that inherits the Employee class and adds data member Specialization
+4. Create another class Manager that inherits the Employee class and adds data member Department
+5. Create an object of Officer in the main method
+6. Assign name, age, phoneNo, address, salary and Specialization to the Officer object
+7. Print the Officer details
+8. Create an object of Manager in the main method
+9. Assign name, age, phoneNo, address, salary and Department to the Manager object
+10. Print the Manager details
+11. Stop

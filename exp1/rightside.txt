@@ -2,12 +2,13 @@ AIM:
 To check whether a given string is Palindrome or not using Java.
 
 ALGORITHM:
-Step 1: Start
-Step 2: Input a string
-Step 3: Input an empty string: reversed = ""
-Step 4: Traverse the input string from the last character to the first
-Step 5: Append each character to reversed
-Step 6: Compare str with reversed
-Step 7: If both strings are equal, display as "String is Palindrome"
-Step 8: Otherwise, display "String is not Palindrome"
-Step 9: Stop
+1. Start
+2. Input a string
+3. Initialize an empty string: reversed = ""
+4. Traverse the input string from the last character to the first:
+    4.1. Append each character to reversed
+5. If both strings (original and reversed) are equal:
+    5.1. Display "String is Palindrome"
+6. Otherwise:
+    6.1. Display "String is not Palindrome"
+7. Stop

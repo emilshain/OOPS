@@ -1,17 +1,13 @@
 AIM:
-Write a Java program to create an abstract class Shape with subclasses Rectangle, Triangle and Hexagon. Calculate the area of each shape.
+Create a abstract class name Shape that contains an empty method named noOfSides(). Provide three classes named Rectangle, Triangle and Hexagon such that each one of the classes extends the Class Shape. Each one of the classes contains only the methods noOfSides() that shows the no. of Sides in a given geometrical structure.
 
 ALGORITHM:
-Step 1: Start
-Step 2: Create an abstract class Shape with an abstract methods collectInput() and calculateArea(), and a method showResult() to display the area
-Step 3: Create a class Rectangle that extends Shape:
-    3.1: Define a method collectInput() to get length and breadth
-    3.2: Define a method calculateArea() to calculate length * breadth
-Step 4: Create a class Triangle that extends Shape:
-    4.1: Define a method collectInput() to get base and height
-    4.2: Define a method calculateArea() to calculate 0.5 * base * height
-Step 5: Create a class Hexagon that extends Shape:
-    5.1: Define a method collectInput() to get side
-    5.2: Define a method calculateArea() to calculate the area of the hexagon
-Step 6: In main, create a Shape reference for Rectangle, Triangle and Hexagon and call collectInput(), calculateArea() and showResult() for each
-Step 7: Stop
+1. Start
+2. Create an abstract class Shape with an abstract method noOfSides()
+3. Create a class Rectangle that extends Shape and defines noOfSides() to display 4
+4. Create a class Triangle that extends Shape and defines noOfSides() to display 3
+5. Create a class Hexagon that extends Shape and defines noOfSides() to display 6
+6. Create a Shape reference for Rectangle in the main method and call noOfSides()
+7. Create a Shape reference for Triangle in the main method and call noOfSides()
+8. Create a Shape reference for Hexagon in the main method and call noOfSides()
+9. Stop

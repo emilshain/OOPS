@@ -9,3 +9,4 @@ additionally, OOPS.docx rules:
 - page breaks: allowed between blocks (between experiments, between code files, between code and OUTPUT:), never inside a block of code or inside a block of output, unless a single block is taller than one page (overflow).
 - closing Word before running the scripts is required or the save fails with PermissionError.
 - scripts: python copy_to_docx.py appends everything to the docx; python fix_docx_layout.py rebuilds the whole document canonically from the exp folders (also refreshes stale content and re-applies the page-break rules). run fix_docx_layout.py after appending or whenever the layout needs fixing.
+- the user may apply their own styling/formatting to OOPS.docx by hand: never overwrite or strip it. adapt to the existing formatting; only add plain text content that inherits it. before touching the docx, check whether it has been manually styled, and prefer in-place edits (or ask) over full rebuilds via fix_docx_layout.py.

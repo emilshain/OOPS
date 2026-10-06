@@ -1,73 +1,34 @@
 abstract class Shape {
-    double area;
-
-    abstract void collectInput();
-
-    abstract void calculateArea();
-
-    void showResult() {
-        System.out.println("Area = " + area);
-    }
+    abstract void noOfSides();
 }
 
 class Rectangle extends Shape {
-    double length, breadth;
-
-    void collectInput() {
-        System.out.println("Rectangle: length = 5, breadth = 3");
-        length = 5;
-        breadth = 3;
-    }
-
-    void calculateArea() {
-        area = length * breadth;
+    void noOfSides() {
+        System.out.println("Number of sides for Rectangle: 4");
     }
 }
 
 class Triangle extends Shape {
-    double base, height;
-
-    void collectInput() {
-        System.out.println("Triangle: base = 4, height = 6");
-        base = 4;
-        height = 6;
-    }
-
-    void calculateArea() {
-        area = 0.5 * base * height;
+    void noOfSides() {
+        System.out.println("Number of sides for Triangle: 3");
     }
 }
 
 class Hexagon extends Shape {
-    double side;
-
-    void collectInput() {
-        System.out.println("Hexagon: side = 2");
-        side = 2;
-    }
-
-    void calculateArea() {
-        area = (3 * Math.sqrt(3) / 2) * side * side;
+    void noOfSides() {
+        System.out.println("Number of sides for Hexagon: 6");
     }
 }
 
 public class ShapeDemo {
     public static void main(String[] args) {
-        Shape s;
+        Shape s1 = new Rectangle();
+        s1.noOfSides();
 
-        s = new Rectangle();
-        s.collectInput();
-        s.calculateArea();
-        s.showResult();
+        Shape s2 = new Triangle();
+        s2.noOfSides();
 
-        s = new Triangle();
-        s.collectInput();
-        s.calculateArea();
-        s.showResult();
-
-        s = new Hexagon();
-        s.collectInput();
-        s.calculateArea();
-        s.showResult();
+        Shape s3 = new Hexagon();
+        s3.noOfSides();
     }
 }
