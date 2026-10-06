@@ -1,15 +1,17 @@
-Inside pkg1.ClassA:
-Public    = 10
-Protected = 20
-Default   = 30
-Private   = 40
+﻿--- Inside BaseClass (Same Class) ---
+private pri_n = 10
+default def_n = 20
+protected pro_n = 30
+public pub_n = 40
 
-Inside pkg1.ClassB:
-Public    = 10
-Protected = 20
-Default   = 30
-Private is not accessible
+--- Inside SamePackageClass (Same Package: pkg1) ---
+default def_n = 20
+protected pro_n = 30
+public pub_n = 40
 
-Inside pkg2.ClassC:
-Public = 10
-Protected, default and private members are not accessible
+--- Inside SubClass (Different Package Subclass: pkg2) ---
+protected pro_n = 30
+public pub_n = 40
+
+--- Inside OtherPackageClass (Different Package Non-Subclass: pkg2) ---
+public pub_n = 40

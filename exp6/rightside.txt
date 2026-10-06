@@ -1,12 +1,31 @@
 AIM:
-Write a Java program to illustrate the concept of access protection using packages.
+Write a Java program to implement access protection in packages.
 
-ALGORITHM:
-1. Start
-2. Create a package pkg1 containing ClassA with public, protected, default and private members
-3. Create ClassB in pkg1 which accesses the public, protected and default members of ClassA
-4. Create a package pkg2 containing ClassC which accesses only the public members of ClassA
-5. Import pkg1 and pkg2 into the main class
-6. Create objects of ClassA, ClassB and ClassC in the main method
-7. Access their respective members and display the result
+Access Specifier Rules Summary
+
+Access Specifier | Same Class | Same Package (Subclass & Non-Subclass) | Different Package (Subclass) | Different Package (Non-Subclass)
+---|---|---|---|---
+private | Yes | No | No | No
+default (no keyword) | Yes | Yes | No | No
+protected | Yes | Yes | Yes (via inheritance) | No
+public | Yes | Yes | Yes | Yes
+
+Algorithm
+1. Create a package named pkg1.
+2. Inside pkg1, create a class BaseClass with four variables having different access modifiers:
+   - private int pri_n
+   - int def_n (default / package-private)
+   - protected int pro_n
+   - public int pub_n
+3. Inside pkg1, create a second class SamePackageClass to test access:
+   - Instantiate BaseClass.
+   - Access def_n, pro_n, and pub_n (note that pri_n is inaccessible).
+4. Create a second package named pkg2.
+5. Inside pkg2, import pkg1.BaseClass and create a subclass SubClass:
+   - Inherit from BaseClass.
+   - Access pro_n and pub_n directly (note that pri_n and def_n are inaccessible).
+6. Inside pkg2, create a non-subclass OtherPackageClass:
+   - Instantiate BaseClass.
+   - Access only pub_n (note that pri_n, def_n, and pro_n are inaccessible).
+7. Create a driver/main class to instantiate and call the display methods of all classes to demonstrate visibility.
 8. Stop

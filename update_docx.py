@@ -10,7 +10,7 @@ EXPS = [
     ("EXP 3", ["exp3/Matrix.java"], "exp3/output.txt"),
     ("EXP 4", ["exp4/EmployeeDemo.java"], "exp4/output.txt"),
     ("EXP 5", ["exp5/ShapeDemo.java"], "exp5/output.txt"),
-    ("EXP 6", ["exp6/AccessDemo.java", "exp6/pkg1/ClassA.java", "exp6/pkg1/ClassB.java", "exp6/pkg2/ClassC.java"], "exp6/output.txt"),
+    ("EXP 6", ["exp6/Main.java", "exp6/pkg1/BaseClass.java", "exp6/pkg1/SamePackageClass.java", "exp6/pkg2/SubClass.java", "exp6/pkg2/OtherPackageClass.java"], "exp6/output.txt"),
     ("EXP 7", ["exp7/Excep.java"], "exp7/output.txt"),
     ("EXP 8", ["exp8/VoteDemo.java"], "exp8/output.txt"),
 ]
